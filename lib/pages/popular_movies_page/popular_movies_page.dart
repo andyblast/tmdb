@@ -34,7 +34,6 @@ class _PopularMoviesPageState extends State<PopularMoviesPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: Container(width: 35),
         title: Center(child: Text('Popular movies')),
       ),
       body: Container(
